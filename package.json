@@ -21,14 +21,20 @@
     ]
   },
   "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.3",
+    "sequelize": "^4.38.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "terser": "^3.14.1",
     "axios": "^0.18.0",
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
-    "express": "^4.16.3",
-    "pg": "^7.4.3",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",
@@ -36,13 +42,7 @@
     "redux": "^4.0.0",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sequelize": "^4.38.1",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "terser": "^3.14.1"
   }
 }
